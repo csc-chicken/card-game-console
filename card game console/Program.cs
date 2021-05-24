@@ -1,12 +1,14 @@
 ﻿using System;
-
+using Cardgame;
+using Cardgame_proccess;
 namespace card_game_console
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Cardgame Mycardgame = new Cardgame();
+            Act Mycardgame = new Act();
+            Mycardgame.lesPlay();
             Console.WriteLine("Hello World!");
         }
     }
